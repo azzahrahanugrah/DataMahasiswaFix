@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+    <TextView
+        android:layout_marginTop="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT DATA MAHASISWA"
+        android:layout_gravity="center_horizontal"
+        android:textSize="23dp"/>
+
+    <EditText
+        android:id="@+id/ednim"
+        android:layout_marginTop="27dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/ednama"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="NAMA"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/edalamat"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="ALAMAT"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_marginTop="27dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="UPDATE DATA"
+        android:textSize="12dp"/>
+</LinearLayout>

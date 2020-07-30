@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertActivity">
+
+    <TextView
+        android:layout_marginTop="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MASUKKAN DATA MAHASISWA"
+        android:layout_gravity="center_horizontal"
+        android:textSize="23dp"/>
+
+    <EditText
+        android:id="@+id/nim"
+        android:layout_marginTop="27dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="NAMA"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="ALAMAT"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/tambah"
+        android:layout_marginTop="27dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TAMBAHKAN DATA"
+        android:textSize="12dp"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "180654724461",
+    "firebase_url": "https://data-mahasiswa-4e0a6.firebaseio.com",
+    "project_id": "data-mahasiswa-4e0a6",
+    "storage_bucket": "data-mahasiswa-4e0a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180654724461:android:3cf37fe1271fb9eb467664",
+        "android_client_info": {
+          "package_name": "android.jplas.datamahasiswa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180654724461-ikg4euck51eghctcogpc4a86jc10c15e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.jplas.datamahasiswa",
+            "certificate_hash": "87fcbfd1606d1c4047863f7004b0ca91b23c4af0"
+          }
+        },
+        {
+          "client_id": "180654724461-uotc3unffhcn1pgvsmtprtkvmst514fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAcLyRF4Ruoi1XnmBsOLaZt9hFHj2SV9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180654724461-uotc3unffhcn1pgvsmtprtkvmst514fq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
